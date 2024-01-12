@@ -39,13 +39,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 
 
-1.) The first thing you are going to want to do is create a virtual machine by going to https://portal.azure.com/. Setup your virtual machine with Windows 10 Pro, version 22H2. Note, you will want to create a virtual machine with at least 2 vcpus and 16 gbs of memory.
+1.) Start by creating a virtual machine on Azure Portal with Windows 10 Pro, version 22H2. Ensure your virtual machine has a minimum configuration of 2 vCPUs and 16 GBs of memory
 
-2.) Once you have created your virtual machine you will want to connect to it by using the public ip address the vm is setup with. You will connect using the remote desktop connection app.
+2.) After creating the virtual machine, connect to it using the public IP address assigned to the VM. Utilize the Remote Desktop Connection app for the connection.
 
-3.) Copy and paste the simple list and installation files from the lab into the virtual machine. Once you have connected you will want to go to your control panel, from the control panel open up programs. Select, Turn Windows features on and off.
+3.) Copy and paste the provided list and installation files from the lab into the virtual machine. Once connected, navigate to the Control Panel, then open "Programs." Choose "Turn Windows features on and off."
 
-4.) You will want to install/enable IIS in Windows with CGI and Common HTTP Features
+4.) Install and enable IIS in Windows, making sure to include CGI and Common HTTP Features
 
 </p>
 <br />
@@ -70,7 +70,7 @@ Make sure that all Common HTTP features are checked. To make sure IIS is install
 
 1.) Now that the IIS is enabled, From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi) Go through the install wizard and complete the install.
 
-2.) Next from the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
+2.) Download and install the Rewrite Module (rewrite_amd64_en-US.msi)
 
 3.) Create a folder in the C drive called PHP.
 
